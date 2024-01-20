@@ -1,6 +1,6 @@
 <script setup>
 
-import {onMounted, ref} from "vue";
+import {onMounted, ref, reactive} from "vue";
 import EventService from "../../services/EventService.js";
 
 const event = ref(null);
